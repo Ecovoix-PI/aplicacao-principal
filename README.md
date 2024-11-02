@@ -14,7 +14,7 @@ Promover a reciclagem de forma lúdica, utilizando mecânicas de jogo que engaja
 - **Máquinas Inteligentes**: Instaladas em escolas para contagem automática de latas.
 - **App Mobile**: Perfis de usuários, troca de pontos, e conteúdos educativos.
 
-## Problemas que Resolve
+## Problemas que visamos resolver
 
 - Baixo engajamento na reciclagem entre jovens.
 - Falta de educação ambiental prática nas escolas.
