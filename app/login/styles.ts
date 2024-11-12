@@ -1,5 +1,5 @@
 import { Button, Dimensions, StyleSheet } from "react-native";
-import { themas } from "../../src/global/themes";
+import { themes } from "../../src/global/themes";
 
 export const style = StyleSheet.create({
   container: {
@@ -37,7 +37,7 @@ export const style = StyleSheet.create({
     height: 50,
     alignItems: "center",
     justifyContent: "center",
-    backgroundColor: themas.colors.primary,
+    backgroundColor: themes.colors.primary,
     borderRadius: 40,
     marginTop: 20,
     shadowColor: "#0000",
@@ -56,6 +56,6 @@ export const style = StyleSheet.create({
   },
   textBottom: {
     fontSize: 16,
-    color: themas.colors.gray,
+    color: themes.colors.gray,
   },
 });

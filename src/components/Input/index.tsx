@@ -10,7 +10,7 @@ import {
 } from "react-native";
 import { style } from "./styles";
 import { FontAwesome, MaterialIcons, Octicons } from "@expo/vector-icons";
-import { themas } from "../../global/themes";
+import { themes } from "../../global/themes";
 
 type IconComponent =
   | React.ComponentType<React.ComponentProps<typeof MaterialIcons>>
@@ -82,7 +82,7 @@ export const Input = forwardRef(
               <IconLeft
                 name={iconLeftName as any}
                 size={20}
-                color={themas.colors.gray}
+                color={themes.colors.gray}
                 style={style.Icon}
               />
             </TouchableOpacity>
@@ -100,7 +100,7 @@ export const Input = forwardRef(
               <IconRigth
                 name={iconRightName as any}
                 size={20}
-                color={themas.colors.gray}
+                color={themes.colors.gray}
                 style={style.Icon}
               />
             </TouchableOpacity>

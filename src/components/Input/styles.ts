@@ -1,5 +1,5 @@
 import { Button, Dimensions, StyleSheet } from "react-native";
-import { themas } from "C:/Users/gabriel/Documents/projetos/projeto-expo/my-app/src/global/themes";
+import { themes } from "../../global/themes";
 
 export const style = StyleSheet.create({
   boxInput: {
@@ -11,8 +11,8 @@ export const style = StyleSheet.create({
     flexDirection: "row",
     alignItems: "center",
     paddingHorizontal: 5,
-    backgroundColor: themas.colors.lightGray,
-    borderColor: themas.colors.lightGray,
+    backgroundColor: themes.colors.lightGray,
+    borderColor: themes.colors.lightGray,
   },
   input: {
     height: "100%",
@@ -24,7 +24,7 @@ export const style = StyleSheet.create({
   titleInput: {
     marginLeft: 5,
     marginTop: 20,
-    color: themas.colors.gray,
+    color: themes.colors.gray,
   },
   Button: {
     width: "10%",
