@@ -11,7 +11,7 @@ import {
 import { style } from "./styles";
 // import Logo from "../../assets/logo.png";
 import { MaterialIcons, Octicons } from "@expo/vector-icons";
-import { themas } from "../../src/global/themes";
+import { themes } from "../../src/global/themes";
 import { Input } from "../../src/components/Input";
 
 export default function Login() {
@@ -77,7 +77,7 @@ export default function Login() {
       </View>
       <Text style={style.textBottom}>
         Não possuí uma conta?{" "}
-        <Text style={{ color: themas.colors.primary }}>Crie agora!</Text>
+        <Text style={{ color: themes.colors.primary }}>Crie agora!</Text>
       </Text>
     </View>
   );
