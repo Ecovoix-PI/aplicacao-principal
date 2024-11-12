@@ -11,8 +11,8 @@ import {
 import { style } from "./styles";
 // import Logo from "../../assets/logo.png";
 import { MaterialIcons, Octicons } from "@expo/vector-icons";
-import { themas } from "../../global/themes";
-import { Input } from "../../components/Input";
+import { themas } from "../../src/global/themes";
+import { Input } from "../../src/components/Input";
 
 export default function Login() {
   const [email, setEmail] = useState("");
