@@ -1,9 +1,10 @@
 {
   "expo": {
-    "name": "my-app",
-    "slug": "my-app",
+    "name": "Ecovoix",
+    "slug": "ecovoix-app",
     "version": "1.0.0",
     "orientation": "portrait",
+    "scheme": ["app-ecovoix"],
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
@@ -22,6 +23,15 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      [
+        "expo-font",
+        {
+          "fonts": ["./assets/fonts/Poppins-Bold.ttf"]
+        }
+      ],
+      "expo-router"
+    ]
   }
 }
