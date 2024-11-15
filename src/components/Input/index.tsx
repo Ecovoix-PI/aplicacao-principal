@@ -72,7 +72,7 @@ export const Input = forwardRef(
             style.boxInput,
             {
               paddingLeft: calculateSizePaddingLeft(),
-              height: height ? height : 40,
+              height: height ? height : 50, // Aumenta a altura aqui
               padding: 5,
             },
           ]}
@@ -90,7 +90,11 @@ export const Input = forwardRef(
           <TextInput
             style={[
               style.input,
-              { width: calculateSizeWidth(), height: "100%" },
+              {
+                width: calculateSizeWidth(),
+                height: "100%",
+                paddingVertical: 10, // Adiciona padding vertical para centralizar o texto
+              },
             ]}
             ref={ref}
             {...rest}
